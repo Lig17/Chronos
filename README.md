@@ -1,9 +1,9 @@
 # Chronos-Graph: A Multimodal Agentic Neuro-Symbolic Framework for Federated Urban Resilience and Predictive Crisis Orchestration
 
-## 🎯 Problem Statement
+## Problem Statement
 Rapid urbanization in the Global South has converged with intensifying climate volatility, producing what can be described as a state of “climate double jeopardy”—simultaneous exposure to extreme flooding, heat stress, and infrastructure congestion. India alone recorded over 3,200 fatalities from extreme weather events in 2024. Existing AI systems remain predominantly reactive and centralized, failing to capture multi-hop relational dependencies across cascading infrastructure.
 
-## 🏗️ Architecture (Four-Layer Framework)
+## Architecture (Four-Layer Framework)
 1. **Layer 1: Geospatial Foundation Model (GeoFM)**: Backbone trained on multi-spectral satellite imagery (Sentinel-2) for location-specific embeddings.
 2. **Layer 2: Differentiable Neuro-Symbolic Reasoning**: Encodes infrastructure relationships as first-order logic rules within a knowledge graph (OpenStreetMap). Mitigates hallucination via graph traversal.
 3. **Layer 3: Agentic Orchestration Engine**: Built on a state-machine paradigm (LangGraph) using a **Generator–Verifier–Updater (GVU)** cycle.
@@ -19,11 +19,6 @@ Rapid urbanization in the Global South has converged with intensifying climate v
 - **Traffic Optimization**: SUMO simulations measuring travel time and Gini/Jain indices.
 - **Privacy**: Re-identification risk metrics and Kolmogorov–Smirnov distance.
 
-## 🎥 Pitch Script
-1. **Problem**: Urban "climate double jeopardy" in cities like Bengaluru requires more than just dashboards.
-2. **Solution**: Chronos-Graph is a cognitive infrastructure that moves from reactive to predictive orchestration.
-3. **Demo**: Watch the GVU cycle in action. The Generator proposes a rerouting plan based on GeoFM data, the Verifier checks symbolic constraints on the knowledge graph, and the Updater refines logic across federated nodes.
-4. **Impact**: Decentralized, privacy-preserving, and equitable urban resilience.
 
 ## 📄 References
 - Clark University (2026): GeoFM Foundation Models.
