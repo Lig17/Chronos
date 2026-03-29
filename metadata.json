@@ -1,0 +1,5 @@
+{
+  "name": "Chronos-Graph: Neuro-Symbolic Urban Orchestrator",
+  "description": "A Multimodal Agentic Neuro-Symbolic Framework for Federated Urban Resilience and Predictive Crisis Orchestration.",
+  "requestFramePermissions": ["geolocation"]
+}
